@@ -38,7 +38,7 @@ function mouseMove(evn) {
 
 function PopTip() {
     if (b == "Netscape") {
-        theLayer = eval('document.layers[\'ToolTip\']');
+        theLayer = document.layers.ToolTip;
         if ((pX + 120) > window.innerWidth) {
             pX = window.innerWidth - 150;
         }
@@ -46,7 +46,7 @@ function PopTip() {
         theLayer.top = pY + 15;
         theLayer.visibility = 'show';
     } else {
-        theLayer = eval('document.all[\'ToolTip\']');
+        theLayer = document.all.ToolTip;
         if (theLayer) {
             pX = event.x - 5;
             pY = event.y;
@@ -83,10 +83,10 @@ function HideMenu1() {
 
 function ShowMenu1() {
     if (b == "Netscape") {
-        theLayer = eval('document.layers[\'menu1\']');
+        theLayer = document.layers.menu1;
         theLayer.visibility = 'show';
     } else {
-        theLayer = eval('document.all[\'menu1\']');
+        theLayer = document.all.menu1;
         theLayer.style.visibility = 'visible';
     }
 }
@@ -101,10 +101,10 @@ function HideMenu2() {
 
 function ShowMenu2() {
     if (b == "Netscape") {
-        theLayer = eval('document.layers[\'menu2\']');
+        theLayer = document.layers.menu2;
         theLayer.visibility = 'show';
     } else {
-        theLayer = eval('document.all[\'menu2\']');
+        theLayer = document.all.menu2;
         theLayer.style.visibility = 'visible';
     }
 }
