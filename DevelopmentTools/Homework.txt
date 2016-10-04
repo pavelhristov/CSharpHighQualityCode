@@ -1,0 +1,12 @@
+/* not full homework, only things that I use for now, not in mood for research right after exam */
+
+
+1.
+	- Link to GitHub: https://github.com/pavelhristov
+	- 
+	- StyleCop.bmp
+	- ILSpy.bmp
+	-
+	-
+2.
+3.My C# Fundamentals exam, anti-HQC in almost every aspect https://github.com/pavelhristov/CSharpFundamentals/tree/master/Exam26April2016Morning
